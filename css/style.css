@@ -1,0 +1,71 @@
+
+.navbar-brand{
+    color: aqua;
+}
+
+.clearfix {
+    background-color: rgb(32, 41, 69);
+    height: 30rem;
+}
+
+.parrafo_inicio{
+    color: white;
+}
+
+.cuerpo img {
+    height: 100px;
+}
+
+.logo_nav {
+    height: 50px;
+    transition: 0.5s;
+}
+
+.logo_nav:hover {
+    transform: scale(1.3);
+}
+
+.imagen_inicio img {
+    display: flex;
+    height: 15rem;
+    margin-top: 10px;
+    float: right;
+}
+
+.titulo_clientes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.d-block{
+    height: 700px;
+}
+
+.cards_clientes{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.flex-shrink-0{
+    height: 350px;
+    width: 350px;
+}
+
+.parte_parrafo{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+
+.card-img-top{
+    height: 584px;
+    width: 1282px;
+}
+
+.bg-dark{
+    background-color: rgb(32, 41, 69);
+}
+
+.mb-4 img{
+    height: 20px;
+}
