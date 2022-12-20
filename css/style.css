@@ -67,12 +67,11 @@
     transform: scale(1.1);
 }
 
-.clearfix{
+.clearfix {
     background-color: rgb(32, 41, 69);
-    height: 30rem;
 }
 
-.parrafo_inicio{
+.parrafo_inicio {
     color: white;
 }
 
@@ -96,63 +95,144 @@
     float: right;
 }
 
-.titulo_clientes{
+.titulo_clientes {
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(0, 236, 127);
 }
 
-.d-block{
+.d-block {
     height: 1000px;
 }
 
-.clientes-fondo{
-    background-color: rgb(32, 41, 69);
+.clientes-fondo {
+    background-color: rgb(28, 28, 53);
     margin-top: 0px;
 }
 
-.cards_clientes{
+.cards_clientes {
     margin-top: 20px;
     margin-left: 5px;
     color: white;
 }
 
-.flex-shrink-0{
+.flex-shrink-0 {
     height: 350px;
     width: 350px;
 }
 
-.parte_parrafo{
+.parte_parrafo {
     margin-top: 100px;
     margin-right: 100px;
 }
 
-.titulo-serv{
+.titulo-serv {
     background-color: rgb(28, 28, 53);
     margin-bottom: 0px;
     color: rgb(0, 236, 127);
     font-family: ;
 }
 
-.serv-top{
+.serv-top {
     background-color: rgb(28, 28, 53);
 }
 
-.img-top{
+.img-top {
     height: 500px;
     width: 500px;
 }
 
-.bg-dark{
-    background-color: rgb(32, 41, 69);
+.bg-dark {
+    background-color: rgb(6, 8, 14);
 }
 
-.mb-4 img{
+.mb-4 img {
     height: 20px;
 }
 
-.formulario{
+.formulario {
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 67px;
+    background-color: rgb(28, 28, 53);
+    color: white;
+}
+
+.form_back{
+    background-color: rgb(28, 28, 53);
+}
+
+.form_back h1{
+    color: rgb(0, 236, 127);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card_index {
+    width: 40%;
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px;
+    min-width: 400px;
+    background-color: rgb(234, 230, 230);
+}
+
+.card_index:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.card_index img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+.contenido h3 {
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 5px;
+}
+
+/* ACERCA DE */
+.bio {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(28, 28, 53);
+}
+
+.bio h1{
+    color: rgb(0, 236, 127);
+}
+
+.bio h1 p img {
+    display: flex;
+    width: 50%;
+}
+
+.bio img {
+    height: 430px;
+    margin-right: 40px;
+}
+
+.bio p {
+    margin: 70px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.bio h1 {
+    font-size: 100px;
 }
